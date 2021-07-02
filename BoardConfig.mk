@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := realme
 
-DEVICE_PATH := device/realme/RMX1911
+DEVICE_PATH := device/realme/RMX2030
 
 TARGET_USE_SDCLANG := true
 
@@ -162,4 +162,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/realme/RMX1911/BoardConfigVendor.mk
+-include vendor/realme/RMX2030/BoardConfigVendor.mk
