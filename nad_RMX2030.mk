@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Inherit from realme RMX2030
 $(call inherit-product, device/realme/RMX2030/device.mk)
@@ -36,7 +36,7 @@ TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := lineage_RMX2030
+PRODUCT_NAME := nad_RMX2030
 PRODUCT_DEVICE := RMX2030
 PRODUCT_MANUFACTURER := Realme
 PRODUCT_BRAND := realme
@@ -44,5 +44,5 @@ PRODUCT_MODEL := Realme 5i
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys
-BUILD_DESCRIPTION := redfin-user 11 RQ2A.210505.003 7255357 release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys
+BUILD_DESCRIPTION := redfin-user 11 RQ3A.210705.001 7380771 release-keys
